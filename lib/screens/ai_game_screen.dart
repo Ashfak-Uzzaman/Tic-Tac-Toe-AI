@@ -90,13 +90,11 @@ class _AIGameScreenState extends State<AIGameScreen> {
                         if (!gameEnd && start && board[index] == '') {
                           setState(() {
                             playerTap(index);
-                          });
-                        }
 
-                        if (!gameEnd && start) {
-                          int aiMove = findBestMove(board);
-                          setState(() {
-                            playerTap(aiMove);
+                            if (!gameEnd) {
+                              int aiMove = findBestMove(board);
+                              playerTap(aiMove);
+                            }
                           });
                         }
                       },

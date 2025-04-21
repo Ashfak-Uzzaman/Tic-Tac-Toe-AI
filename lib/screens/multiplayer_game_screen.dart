@@ -86,7 +86,7 @@ class _MultiplayerGameScreenState extends State<MultiplayerGameScreen> {
                     padding: const EdgeInsets.all(8.0),
                     child: GestureDetector(
                       onTap: () {
-                        if (!gameEnd && start) {
+                        if (!gameEnd && start && board[index] == '') {
                           setState(() {
                             playerTap(index);
                           });
