@@ -46,7 +46,7 @@ class _AIGameScreenState extends State<AIGameScreen> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       MainText(
-                        text: 'You',
+                        text: 'You (X)',
                         fontSize: 35,
                         color: MainColor.accentColor,
                       ),
@@ -62,7 +62,7 @@ class _AIGameScreenState extends State<AIGameScreen> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       MainText(
-                        text: 'Tic-bot',
+                        text: 'Tic-bot (O)',
                         fontSize: 35,
                         color: MainColor.accentColor,
                       ),
@@ -147,7 +147,7 @@ class _AIGameScreenState extends State<AIGameScreen> {
                             restartGame();
                           } else {
                             start = true;
-                            commentary = 'Your Turn';
+
                             resetButtonText = 'Restart Game';
                           }
                         });
@@ -183,7 +183,6 @@ class _AIGameScreenState extends State<AIGameScreen> {
         resetButtonText = 'Play Again';
         return;
       }
-      commentary = 'O\'s Turn';
     } else {
       board[index] = 'O';
       xActivePlayer = !xActivePlayer;
@@ -195,7 +194,6 @@ class _AIGameScreenState extends State<AIGameScreen> {
         resetButtonText = 'Play Again';
         return;
       }
-      commentary = 'Your Turn';
     }
 
     if (isDraw(board)) {
@@ -228,8 +226,7 @@ class _AIGameScreenState extends State<AIGameScreen> {
 
     gameEnd = gameEnd ? !gameEnd : gameEnd;
     xActivePlayer = true;
-
+    commentary = '';
     resetButtonText = 'Restart Game';
-    commentary = 'Your Turn';
   }
 }
