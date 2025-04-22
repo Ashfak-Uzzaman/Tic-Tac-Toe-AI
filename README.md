@@ -1,6 +1,8 @@
 # 🎮 Tic-Tac-Toe AI
 
-A fun and strategic mobile Tic-Tac-Toe game developed using Flutter. The app supports two modes: **Multiplayer** and **Play with AI**. The AI opponent is powered by the Minimax algorithm with Alpha-Beta Pruning, making it a tough opponent to beat!
+An application of 𝑴𝒊𝒏𝒊𝒎𝒂𝒙 𝒂𝒍𝒈𝒐𝒓𝒊𝒕𝒉𝒎 𝒘𝒊𝒕𝒉 𝑨𝒍𝒑𝒉𝒂-𝑩𝒆𝒕𝒂 𝑷𝒓𝒖𝒏𝒊𝒏𝒈. 
+
+A fun mobile Tic-Tac-Toe game developed using Flutter to implement 𝑴𝒊𝒏𝒊𝒎𝒂𝒙 𝒂𝒍𝒈𝒐𝒓𝒊𝒕𝒉𝒎 𝒘𝒊𝒕𝒉 𝑨𝒍𝒑𝒉𝒂-𝑩𝒆𝒕𝒂 𝑷𝒓𝒖𝒏𝒊𝒏𝒈. The app supports two modes: Multiplayer and Play with AI. The AI opponent uses the algorithm to take best decision to make move.
 
 ---
 
