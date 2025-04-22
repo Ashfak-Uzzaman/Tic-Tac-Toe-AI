@@ -11,7 +11,6 @@ A fun mobile Tic-Tac-Toe game developed using Flutter to implement 𝑴𝒊𝒏�
 - ✌️ **Multiplayer Mode** – Play with your friends on the same device.
 - 🤖 **Play with AI Mode** – Challenge a smart AI that always makes the best move.
 - 🧠 AI uses **Minimax with Alpha-Beta Pruning** for optimal and fast decision-making.
-- 📱 Smooth UI and animations using Flutter.
 
 ---
 
