@@ -22,6 +22,8 @@ class _MultiplayerGameScreenState extends State<MultiplayerGameScreen> {
 
   bool xActivePlayer = true;
 
+// List to represent the board state
+  List<String> board = ['', '', '', '', '', '', '', '', ''];
 // Grid's cell color. Will change at winning stage
   List<Color> cellColors = List.filled(9, MainColor.accentColor);
 

@@ -10,9 +10,6 @@ final List<List<int>> winPositions = [
   [2, 4, 6],
 ];
 
-// List to represent the board state
-List<String> board = ['', '', '', '', '', '', '', '', ''];
-
 bool checkResult(List<String> board, String player) {
   for (var position in winPositions) {
     if (board[position[0]] == board[position[1]] &&
