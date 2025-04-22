@@ -95,11 +95,12 @@ int minimax(List<String> board, bool isMax, int alpha, int beta) {
     return best;
   }
 }
-
-## 📄 License
+```
+---
+### 📄 License
 This project is licensed under the **MIT License**.
 
 ---
 
-## ⭐ Contribute
+### ⭐ Contribute
 I welcome contributions! Feel free to fork the repo and submit pull requests.
