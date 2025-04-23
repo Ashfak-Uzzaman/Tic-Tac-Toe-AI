@@ -53,7 +53,7 @@ int findBestMove(List<String> board) {
   for (int i = 0; i < 9; ++i) {
     if (board[i] == '') {
       board[i] = aI;
-      int moveValue = minimax(board, false, negativeInfinite, infinite);
+      int moveValue = minimax(board, false, negativeInfinite, infinite); // false. because want to minimize the result as AI always try to beat (minimize result).
       board[i] = '';
 
       if (moveValue > bestValue) {
