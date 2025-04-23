@@ -98,6 +98,21 @@ int minimax(List<String> board, bool isMax, int alpha, int beta) {
 }
 ```
 ---
+
+### Build Process
+
+- Follow the [Installation Guide](https://docs.flutter.dev/)  for getting started building a flutter project.
+- Clone or download the repo
+```bash
+git clone https://github.com/Ashfak-Uzzaman/Tic-Tac-Toe-AI.git
+```
+- Get dependencies
+```bash
+flutter pub get
+```
+
+---
+
 ### 📄 License
 This project is licensed under the **MIT License**.
 
